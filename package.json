@@ -18,6 +18,8 @@
     "build:prod": "vue-tsc && vite build --mode production"
   },
   "dependencies": {
+    "@element-plus/icons-vue": "^2.3.1",
+    "element-plus": "^2.9.6",
     "vue": "^3.5.13"
   },
   "devDependencies": {
@@ -47,6 +49,8 @@
     "stylelint-scss": "^6.11.1",
     "typescript": "~5.7.2",
     "typescript-eslint": "^8.26.1",
+    "unplugin-auto-import": "^19.1.1",
+    "unplugin-vue-components": "^28.4.1",
     "vite": "^6.2.0",
     "vue-tsc": "^2.2.4"
   }

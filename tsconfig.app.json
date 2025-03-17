@@ -15,7 +15,8 @@
     "paths": {
       // 路径映射，相对于baseUrl
       "@/*": ["src/*"] // 匹配src目录下的所有文件，并将其路径映射到@开头的别名上
-    }
+    },
+    "types": ["element-plus/global"] // 声明element-plus全局类型
   },
   "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.vue"]
 }
